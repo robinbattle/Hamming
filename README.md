@@ -7,21 +7,21 @@ $ python hamming.py <type> <command> <arg1> <arg2>
 
 ## Type
 Where <type> is one of:
-  1. asc - ASCII encoding
-  2. bin - Binary encoding
+  asc - ASCII encoding
+  bin - Binary encoding
   
 ## Commond
 Where <command> is one of:
-  1. enc <infile> <outfile>
-    Encode
-  2. dec  <infile> <outfile>
-    Decode
-  3. chk <infile>
-    Check
-  4. fix <infile> <outfile>
-    Fix
-  5. err <pos> <infile> <outfile>
-    Create an error at bit postion <pos>
+    enc <infile> <outfile>
+      Encode
+    dec  <infile> <outfile>
+      Decode
+    chk <infile>
+      Check
+    fix <infile> <outfile>
+      Fix
+    err <pos> <infile> <outfile>
+      Create an error at bit postion <pos>
     
  *
 # Testing
