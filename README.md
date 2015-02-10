@@ -6,19 +6,20 @@ There are two ways of encoding: ASCII and Binary
 $ python hamming.py <type> <command> <arg1> <arg2>
 
 Where <type> is one of:
-  asc - ASCII encoding
-  bin - Binary encoding
+  1. asc - ASCII encoding
+  2. bin - Binary encoding
 Where <command> is one of:
-  enc <infile> <outfile>
+  1. enc <infile> <outfile>
     Encode
-  dec  <infile> <outfile>
+  2. dec  <infile> <outfile>
     Decode
-  chk <infile>
+  3. chk <infile>
     Check
-  fix <infile> <outfile>
+  4. fix <infile> <outfile>
     Fix
-  err <pos> <infile> <outfile>
+  5. err <pos> <infile> <outfile>
     Create an error at bit postion <pos>
     
+ *
 # Testing
 $ python testing.py
