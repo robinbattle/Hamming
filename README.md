@@ -7,15 +7,15 @@ $ python hamming.py <type> <command> <arg1> <arg2>
 
 ## Type
 Where <type> is one of:
-  asc - ASCII encoding
-  bin - Binary encoding
+    asc - ASCII encoding
+    bin - Binary encoding
   
 ## Commond
 Where <command> is one of:
     enc <infile> <outfile>
       Encode
     dec  <infile> <outfile>
-      Decode
+      ecode
     chk <infile>
       Check
     fix <infile> <outfile>
