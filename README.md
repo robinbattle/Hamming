@@ -5,9 +5,12 @@ There are two ways of encoding: ASCII and Binary
 # Usage
 $ python hamming.py <type> <command> <arg1> <arg2>
 
+## Type
 Where <type> is one of:
   1. asc - ASCII encoding
   2. bin - Binary encoding
+  
+## Commond
 Where <command> is one of:
   1. enc <infile> <outfile>
     Encode
